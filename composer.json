@@ -1,0 +1,33 @@
+{
+    "name": "vecar/autotrader-api-client",
+    "description": "Set API Calls to Autotrader",
+    "autoload": {
+        "psr-4": {
+            "Vecar\\AutotraderApiClient\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Tests\\": "tests/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Abowe1978",
+            "email": "carmine.damore@vecardigitalprogramming.com"
+        }
+    ],
+    "require": {
+        "guzzlehttp/guzzle": "^6.0 || ^7.2",
+        "symfony/options-resolver": "^5.0",
+        "ext-json": "*",
+        "php": ">=7.4",
+        "optimus/onion": "^1.0",
+        "psr/log": "^3.0",
+        "ext-fileinfo": "*"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^9.0",
+        "mockery/mockery": "^1.3"
+    }
+}
