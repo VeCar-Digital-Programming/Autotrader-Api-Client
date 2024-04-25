@@ -1,6 +1,8 @@
 {
     "name": "vecar/autotrader-api-client",
     "description": "Set API Calls to Autotrader",
+    "type": "library",
+    "license": "MIT",
     "autoload": {
         "psr-4": {
             "Vecar\\AutotraderApiClient\\": "src/"
